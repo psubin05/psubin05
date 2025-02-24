@@ -15,28 +15,25 @@
 ---
 
 ### 🔬 Current Projects  
-- **Smart Bug Trap System** 🪰🦟  
+- **Smart Bug Trap** 🪰🦟 -*Team Leader* 
   - Developing a **YOLO-powered bug classification system**  
   - Integrating **ultrasonic sensors** with **Raspberry Pi 4**  
   - Using **OpenCV** for real-time detection  
-
-- **We Need to Talk** 💬  
+  - 
+- **We Need to Talk(대화가 필요해)** 💬  -*Team Leader* 
   - Addressing the **difficulty of starting and maintaining conversations** in unfamiliar or awkward situations  
   - Utilizing **ChatGPT-4 API** to generate **conversation topics** based on user-selected themes  
   - Introducing a **game-like system** where the person who **leads the most conversations wins**  
   - Providing additional features like **"Topic Stealing"** and **"Your Ideal Type?"** to keep interactions engaging  
 
-- **Bus Stop Reminder** 🚌  
+- **Bus Stop Reminder(버스 하차 알리미)** 🚌  -*Solo Project*
   - Solving the common issue of **missing bus stops during long-distance travel**  
   - Notifying users **two stops before their destination** so they can prepare to get off  
   - Ensuring a **more convenient and stress-free commuting experience**  
 
 ---
-
-### 📈 GitHub Stats  
- ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=psubin05&show_icons=true&theme=tokyonight)
- ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=psubin0512&layout=compact&theme=tokyonight)  
-
+###🌱 Learning Journey
+I’m always eager to learn new things, especially in the fields of AI, Embedded Systems, and Software Development. I enjoy experimenting with cutting-edge technologies and contributing to open-source projects. I believe in the power of community-driven development and strive to improve my skills while helping others along the way. Currently, I'm diving deep into YOLO object detection, computer vision, and IoT with Raspberry Pi. Feel free to explore my repositories and reach out if you want to collaborate or chat about new ideas!
 ---
 
 ### 📫 Contact Me  

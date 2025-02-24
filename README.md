@@ -33,7 +33,9 @@
 
 ---
 ###🌱 Learning Journey
+
 I’m always eager to learn new things, especially in the fields of AI, Embedded Systems, and Software Development. I enjoy experimenting with cutting-edge technologies and contributing to open-source projects. I believe in the power of community-driven development and strive to improve my skills while helping others along the way. Currently, I'm diving deep into YOLO object detection, computer vision, and IoT with Raspberry Pi. Feel free to explore my repositories and reach out if you want to collaborate or chat about new ideas!
+
 ---
 
 ### 📫 Contact Me  

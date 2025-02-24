@@ -34,8 +34,8 @@
 ---
 
 ### 📈 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=psubin0512&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=psubin0512&layout=compact&theme=tokyonight)  
+ ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=psubin05&show_icons=true&theme=tokyonight)
+ ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=psubin0512&layout=compact&theme=tokyonight)  
 
 ---
 

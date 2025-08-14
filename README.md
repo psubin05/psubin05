@@ -7,7 +7,10 @@
 ---
 
 ### 🛠️ Tech Stack  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)  
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)  
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)  
@@ -17,18 +20,25 @@
 ---
 
 ### 🔬 Current Projects  
-- **Smart Bug Trap** 🪰🦟 -*Team Leader*  
+- **SavePay** 💳 *(Frontend Developer)*  
+  - Personalizing **payment benefits** by integrating data from cards, e-payments, and telecom providers  
+  - Developed core pages: **Onboarding, Home (Recommended Benefits), Brand Search, Payment Method Registration, My Page**  
+  - Implemented **Recoil-based state management**, **auto-complete search**, **scroll UI**, and **conditional rendering**  
+  - Collaborated via **GitHub branching strategy**, resolving merge conflicts and maintaining code quality  
+  - [GitHub Repository](https://github.com/NEXUS-SAVEPAY/Frontend)  
+
+- **Smart Bug Trap** 🪰🦟 *(Team Leader)*  
   - Developing a **YOLO-powered bug classification system**  
   - Integrating **ultrasonic sensors** with **Raspberry Pi 4**  
   - Using **OpenCV** for real-time detection  
 
-- **We Need to Talk (대화가 필요해)** 💬 -*Team Leader*  
+- **We Need to Talk (대화가 필요해)** 💬 *(Team Leader)*  
   - Addressing the **difficulty of starting and maintaining conversations** in unfamiliar or awkward situations  
   - Utilizing **ChatGPT-4 API** to generate **conversation topics** based on user-selected themes  
   - Introducing a **game-like system** where the person who **leads the most conversations wins**  
   - Providing additional features like **"Topic Stealing"** and **"Your Ideal Type?"** to keep interactions engaging  
 
-- **Bus Stop Reminder (버스 하차 알리미)** 🚌 -*Solo Project*  
+- **Bus Stop Reminder (버스 하차 알리미)** 🚌 *(Solo Project)*  
   - Solving the common issue of **missing bus stops during long-distance travel**  
   - Notifying users **two stops before their destination** so they can prepare to get off  
   - Ensuring a **more convenient and stress-free commuting experience**  

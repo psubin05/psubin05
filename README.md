@@ -32,7 +32,7 @@
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control">
-        <img src="./racing.svg" alt="F1TENTH Autonomous Driving Competition" width="100%">
+        <img src="./racing-competition.jpg" alt="F1TENTH vehicle on the autonomous driving competition course" width="100%">
       </a>
       <br><br>
       Adapted TinyLidarNet on ROS 2 and Jetson with LiDAR-aware speed limits and speed-dependent steering constraints.

@@ -14,28 +14,19 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
 
 ## Experience & Focus
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <code>RESEARCH EXPERIENCE</code>
-      <h3><a href="https://ssu-humane.github.io/">HUMANE Lab</a></h3>
-      <strong>Undergraduate Researcher · 8 months</strong>
-      <ul>
-        <li>Conducted Korean hate-speech detection research using KOLD.</li>
-        <li>Ran ICCD/CD and self-refinement experiments for few-shot classification.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <code>CURRENT FOCUS</code>
-      <h3>ARCo WES · Warehouse Multi-Robot Simulation</h3>
-      <strong>In progress</strong>
-      <ul>
-        <li>Developing a Webots simulator for warehouse multi-robot operations.</li>
-        <li>Studying task verification and dynamic replanning when inventory or task records diverge from the physical state.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### [HUMANE Lab](https://ssu-humane.github.io/)
+
+**Undergraduate Researcher · 8 months**
+
+- Studied Korean hate speech detection using the KOLD dataset.
+- Tested ICCD/CD and self-refinement for few-shot classification.
+
+### [ARCo WES](https://github.com/graviny/capstone)
+
+**Warehouse multi-robot simulation · In progress**
+
+- Developing a Webots simulator for warehouse robot operations.
+- Studying how robots verify tasks and replan when inventory or task records differ from the physical state.
 
 ## Connect & Core Stack
 

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
+  <title id="title">F1TENTH adaptive racing control pipeline</title>
+  <desc id="desc">LiDAR scan flows through TinyLidarNet inference and adaptive speed and steering control to an Ackermann drive command.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101c30"/>
+      <stop offset="1" stop-color="#172842"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#06101f" flood-opacity="0.45"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#67e8f9"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="510" rx="28" fill="url(#bg)"/>
+  <path d="M0 0H1200V7H0Z" fill="url(#accent)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="46" y="58" fill="#67e8f9" font-size="19" font-weight="700" letter-spacing="2.4">AUTONOMOUS DRIVING · ROS 2 · NVIDIA JETSON</text>
+    <text x="46" y="108" fill="#ffffff" font-size="38" font-weight="700">F1TENTH Adaptive Racing Control</text>
+
+    <rect x="815" y="38" width="339" height="52" rx="26" fill="#3a2c12" stroke="#f6c85f" stroke-width="2"/>
+    <circle cx="848" cy="64" r="12" fill="#f6c85f"/>
+    <path d="M842 64l4 4 8-10" fill="none" stroke="#3a2c12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="874" y="71" fill="#ffe6a3" font-size="18" font-weight="700">8TH PLACE · ICCAS 2025</text>
+
+    <g filter="url(#shadow)">
+      <rect x="45" y="174" width="220" height="210" rx="22" fill="#1e3352" stroke="#36577e" stroke-width="2"/>
+      <rect x="334" y="174" width="220" height="210" rx="22" fill="#1e3352" stroke="#36577e" stroke-width="2"/>
+      <rect x="623" y="174" width="290" height="210" rx="22" fill="#1e3352" stroke="#67e8f9" stroke-width="2"/>
+      <rect x="982" y="174" width="173" height="210" rx="22" fill="#1e3352" stroke="#36577e" stroke-width="2"/>
+    </g>
+
+    <g fill="none" stroke="#67e8f9" stroke-width="4" marker-end="url(#arrow)">
+      <path d="M277 279H319"/>
+      <path d="M566 279H608"/>
+      <path d="M925 279H967"/>
+    </g>
+
+    <g text-anchor="middle">
+      <g transform="translate(155 224)" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round">
+        <path d="M-50 30A55 55 0 0 1 50 30"/>
+        <path d="M-35 30A39 39 0 0 1 35 30" opacity="0.75"/>
+        <path d="M-20 30A22 22 0 0 1 20 30" opacity="0.55"/>
+        <circle cx="0" cy="30" r="7" fill="#67e8f9" stroke="none"/>
+      </g>
+      <text x="155" y="309" fill="#ffffff" font-size="24" font-weight="700">LiDAR Scan</text>
+      <text x="155" y="342" fill="#9fb4cf" font-size="18">/scan</text>
+
+      <g transform="translate(444 236)" fill="none" stroke="#67e8f9" stroke-width="3">
+        <circle cx="-42" cy="0" r="10" fill="#67e8f9"/>
+        <circle cx="0" cy="-24" r="10"/>
+        <circle cx="0" cy="24" r="10"/>
+        <circle cx="42" cy="0" r="10" fill="#60a5fa"/>
+        <path d="M-32-2L-10-20M-32 2L-10 20M10-20L32-4M10 20L32 4"/>
+      </g>
+      <text x="444" y="309" fill="#ffffff" font-size="24" font-weight="700">TinyLidarNet</text>
+      <text x="444" y="342" fill="#9fb4cf" font-size="18">speed + steering</text>
+
+      <text x="768" y="220" fill="#ffffff" font-size="24" font-weight="700">Adaptive Control</text>
+      <g text-anchor="start" font-size="18">
+        <circle cx="672" cy="264" r="5" fill="#67e8f9"/>
+        <text x="688" y="270" fill="#d8e5f3">LiDAR-aware speed bound</text>
+        <circle cx="672" cy="305" r="5" fill="#67e8f9"/>
+        <text x="688" y="311" fill="#d8e5f3">Speed-based steering limit</text>
+        <circle cx="672" cy="346" r="5" fill="#67e8f9"/>
+        <text x="688" y="352" fill="#d8e5f3">EMA steering smoothing</text>
+      </g>
+
+      <g transform="translate(1068 238)" fill="none" stroke="#67e8f9" stroke-width="4">
+        <rect x="-39" y="-19" width="78" height="50" rx="12"/>
+        <circle cx="-25" cy="37" r="9" fill="#67e8f9"/>
+        <circle cx="25" cy="37" r="9" fill="#67e8f9"/>
+        <path d="M0-19V-41M-15-41H15"/>
+      </g>
+      <text x="1068" y="326" fill="#ffffff" font-size="23" font-weight="700">Drive</text>
+      <text x="1068" y="357" fill="#9fb4cf" font-size="17">/drive</text>
+    </g>
+
+    <text x="46" y="452" fill="#9fb4cf" font-size="18">Competition implementation · qualitative run available in the project repository</text>
+  </g>
+</svg>

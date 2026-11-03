@@ -21,7 +21,7 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/psubin05/hate_self_refine">
-        <img src="./research.svg" alt="Korean Hate Speech Detection" width="100%">
+        <img src="./hate-speech-method.png" alt="Self-refined negative demonstrations for Korean hate speech classification" width="100%">
       </a>
       <br><br>
       KOLD few-shot classification with ICCD/CD experiments. Reported macro-F1 improved from <strong>0.4039</strong> to <strong>0.4636</strong> with self-refinement.

@@ -21,7 +21,7 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
 - Studied Korean hate speech detection using the KOLD dataset.
 - Tested ICCD/CD and self-refinement for few-shot classification.
 
-### [ARCo WES](https://github.com/graviny/capstone)
+### [KARCO WES](https://github.com/graviny/capstone)
 
 **Warehouse multi-robot simulation · In progress**
 
@@ -95,12 +95,12 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
   <tr>
     <td width="52%" valign="middle">
       <a href="https://github.com/graviny/capstone">
-        <img src="./warehouse.svg" alt="ARCo WES · Warehouse Multi-Robot Simulation" width="100%">
+        <img src="./warehouse.svg" alt="KARCO WES · Warehouse Multi-Robot Simulation" width="100%">
       </a>
     </td>
     <td width="48%" valign="middle">
       <code>MULTI-ROBOT · IN PROGRESS</code>
-      <h3>ARCo WES · Warehouse Multi-Robot Simulation</h3>
+      <h3>KARCO WES · Warehouse Multi-Robot Simulation</h3>
       <ul>
         <li>Simulates a 24 × 14 m warehouse in Webots with patrol and transport robots.</li>
         <li>Uses real order data to model inventory and task-state mismatches for task verification and dynamic replanning.</li>
@@ -128,3 +128,12 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
     </td>
   </tr>
 </table>
+
+## Additional Project
+
+### [Smart Bug Trap](https://github.com/psubin05/Smart-Bug-Trap)
+
+**Indoor pest monitoring and automated trapping**
+
+- Uses YOLOv5 and a Raspberry Pi camera to detect fruit flies, mosquitoes, and cockroaches.
+- Uses ultrasonic distance sensing to trigger the trap when a pest approaches.

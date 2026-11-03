@@ -35,7 +35,7 @@
         <img src="./racing-competition.jpg" alt="F1TENTH vehicle on the autonomous driving competition course" width="100%">
       </a>
       <br><br>
-      <strong>8th Place · Encouragement Award</strong><br>
+      <strong>🏅 8th Place · Encouragement Award</strong><br>
       2025 The 4th F1TENTH Korea Championship · ICCAS 2025
       <br><br>
       Adapted TinyLidarNet on ROS 2 and Jetson with LiDAR-aware speed limits and speed-dependent steering constraints.

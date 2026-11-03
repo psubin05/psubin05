@@ -1,55 +1,39 @@
-# 👋 Hello, I'm Subin Park!  
+# Subin Park
 
-🚀 **Aspiring AI & Embedded Systems Developer**  
-💡 Passionate about **Deep Learning**, **Embedded Systems**, and **Open Source**  
-🎯 Interested in **Raspberry Pi, YOLO, and AI-driven automation**  
+**AI Development · Robotics Engineering**
 
----
+I work on Korean NLP experiments and ROS 2 vehicle control. My current work focuses on adaptive communication for multi-robot systems.
 
-### 🛠️ Tech Stack  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)  
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)  
-![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)  
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)  
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)  
+## Selected Projects
 
----
+### Korean Hate Speech Detection · Undergraduate Research
 
-### 🔬 Current Projects  
-- **SavePay** 💳 *(Frontend Developer)*  
-  - Personalizing **payment benefits** by integrating data from cards, e-payments, and telecom providers  
-  - Developed core pages: **Onboarding, Home (Recommended Benefits), Brand Search, Payment Method Registration, My Page**  
-  - Implemented **Recoil-based state management**, **auto-complete search**, **scroll UI**, and **conditional rendering**  
-  - Collaborated via **GitHub branching strategy**, resolving merge conflicts and maintaining code quality  
-  - [GitHub Repository](https://github.com/NEXUS-SAVEPAY/Frontend)  
+I ran few-shot classification experiments on KOLD, including ICCD/CD experiments. In the reported self-refinement ablation, the proposed method achieved **0.4636 macro-F1**, compared with **0.4039** for regular in-context learning. The repository includes experiment scripts, prompts, and reported metrics.
 
-- **Smart Bug Trap** 🪰🦟 *(Team Leader)*  
-  - Developing a **YOLO-powered bug classification system**  
-  - Integrating **ultrasonic sensors** with **Raspberry Pi 4**  
-  - Using **OpenCV** for real-time detection  
+[Experiment code and results](https://github.com/psubin05/hate_self_refine)
 
-- **We Need to Talk (대화가 필요해)** 💬 *(Team Leader)*  
-  - Addressing the **difficulty of starting and maintaining conversations** in unfamiliar or awkward situations  
-  - Utilizing **ChatGPT-4 API** to generate **conversation topics** based on user-selected themes  
-  - Introducing a **game-like system** where the person who **leads the most conversations wins**  
-  - Providing additional features like **"Topic Stealing"** and **"Your Ideal Type?"** to keep interactions engaging  
+### Adaptive Multi-Robot Communication · In Progress
 
-- **Bus Stop Reminder (버스 하차 알리미)** 🚌 *(Solo Project)*  
-  - Solving the common issue of **missing bus stops during long-distance travel**  
-  - Notifying users **two stops before their destination** so they can prepare to get off  
-  - Ensuring a **more convenient and stress-free commuting experience**  
+I am working on how robots can adapt their communication to changing conditions while coordinating as a team.
 
----
+### F1TENTH Adaptive Racing Control · Autonomous Driving Competition
 
-### 🌱 Learning Journey  
-I’m always eager to learn new things, especially in the fields of AI, Embedded Systems, and Software Development. I enjoy experimenting with cutting-edge technologies and contributing to open-source projects. I believe in the power of community-driven development and strive to improve my skills while helping others along the way. Currently, I'm diving deep into YOLO object detection, computer vision, and IoT with Raspberry Pi. Feel free to explore my repositories and reach out if you want to collaborate or chat about new ideas!  
+I adapted a TinyLidarNet inference node in an existing ROS 2 racing stack on NVIDIA Jetson. I used forward LiDAR clearance to adjust the speed limit and commanded speed to constrain steering.
 
----
+[Control implementation](https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control)
 
-### 📫 Contact Me  
-📧 Email: psubin0512@gmail.com  
-💻 GitHub: [psubin05](https://github.com/psubin05)  
+### F1TENTH Collision Detection and Reverse Recovery · Team Project
+
+I implemented collision detection using LiDAR, IMU, and odometry, and integrated the ROS 2 state transitions and controller switching. The team’s recovery sequence uses rule-based reverse steering and waits for particle-filter localization to stabilize before resuming Pure Pursuit.
+
+[Recovery implementation and demo documentation](https://github.com/psubin05/f1tenth-collision-recovery)
+
+## Tools and Methods
+
+- **AI and NLP:** Python, few-shot evaluation, in-context learning, vLLM
+- **Robotics and control:** ROS 2, Python, C++, LiDAR, Ackermann control, NVIDIA Jetson
+
+## Contact
+
+[psubin0512@gmail.com](mailto:psubin0512@gmail.com)
+

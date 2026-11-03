@@ -30,11 +30,19 @@
 
   <g transform="translate(825 42)" fill="none" stroke-linecap="round" stroke-linejoin="round">
     <path d="M45 54L151 21L254 67L207 168L92 183L45 54Z" stroke="#94a3b8" stroke-opacity="0.65" stroke-width="2"/>
-    <path d="M45 54L156 108L254 67M156 108L92 183M156 108L207 168M151 21L156 108" stroke="#06b6d4" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="6 8"/>
+    <path d="M45 54L156 108L254 67M156 108L92 183M156 108L207 168M151 21L156 108" stroke="#06b6d4" stroke-opacity="0.7" stroke-width="2" stroke-dasharray="6 8">
+      <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="2.4s" repeatCount="indefinite"/>
+    </path>
     <circle cx="45" cy="54" r="12" fill="#ffffff" stroke="#06b6d4" stroke-width="3"/>
     <circle cx="151" cy="21" r="9" fill="#ffffff" stroke="#3b82f6" stroke-width="3"/>
     <circle cx="254" cy="67" r="12" fill="#ffffff" stroke="#06b6d4" stroke-width="3"/>
-    <circle cx="156" cy="108" r="18" fill="#ffffff" stroke="url(#accent)" stroke-width="4" filter="url(#glow)"/>
+    <circle cx="156" cy="108" r="20" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.45">
+      <animate attributeName="r" values="20;31;20" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="156" cy="108" r="18" fill="#ffffff" stroke="url(#accent)" stroke-width="4" filter="url(#glow)">
+      <animate attributeName="r" values="18;19.5;18" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
     <circle cx="92" cy="183" r="11" fill="#ffffff" stroke="#3b82f6" stroke-width="3"/>
     <circle cx="207" cy="168" r="11" fill="#ffffff" stroke="#06b6d4" stroke-width="3"/>
     <path d="M145 108h22M156 97v22" stroke="#0e7490" stroke-width="3"/>

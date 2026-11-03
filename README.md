@@ -10,6 +10,8 @@ Profile design system
   <img src="./banner.svg" alt="Subin Park — Robotics Engineer and AI Developer" width="100%">
 </div>
 
+I work on ROS 2 autonomous driving and warehouse multi-robot systems, with research experience in LLM-based Korean hate speech detection.
+
 ## Experience & Focus
 
 <table>
@@ -25,11 +27,11 @@ Profile design system
     </td>
     <td width="50%" valign="top">
       <code>CURRENT FOCUS</code>
-      <h3>Warehouse Multi-Robot Communication</h3>
+      <h3>ARCo WES · Warehouse Multi-Robot Simulation</h3>
       <strong>In progress</strong>
       <ul>
-        <li>Building adaptive communication policies for warehouse robots.</li>
-        <li>Evaluating communication cost and task performance in Webots.</li>
+        <li>Developing a Webots simulator for warehouse multi-robot operations.</li>
+        <li>Studying task verification and dynamic replanning when inventory or task records diverge from the physical state.</li>
       </ul>
     </td>
   </tr>
@@ -53,25 +55,6 @@ Profile design system
 </div>
 
 ## Selected Projects
-
-<table>
-  <tr>
-    <td width="52%" valign="middle">
-      <a href="https://github.com/graviny/capstone">
-        <img src="./warehouse.svg" alt="Warehouse Multi-Robot Communication" width="100%">
-      </a>
-    </td>
-    <td width="48%" valign="middle">
-      <code>MULTI-ROBOT · IN PROGRESS</code>
-      <h3>Warehouse Multi-Robot Communication</h3>
-      <ul>
-        <li>Simulates a 20 × 14 m Webots warehouse with patrol, recovery, and transport robots.</li>
-        <li>Compares full, pull, cache, and adaptive communication policies under anomalies and channel load.</li>
-      </ul>
-      <a href="https://github.com/graviny/capstone"><strong>Repository →</strong></a>
-    </td>
-  </tr>
-</table>
 
 <table>
   <tr>
@@ -105,14 +88,33 @@ Profile design system
     </td>
     <td width="48%" valign="middle">
       <code>ROBOT CONTROL · TEAM PROJECT</code>
-      <h3>F1TENTH Collision Recovery</h3>
+      <h3>F1TENTH Collision Detection &amp; Reverse Recovery</h3>
       <ul>
         <li>Detects collision states using LiDAR, IMU, and odometry.</li>
-        <li>Coordinates reverse recovery and autonomous driving through ROS 2 state transitions.</li>
+        <li>Integrates ROS 2 state transitions for reverse recovery and return to autonomous driving after localization stabilizes.</li>
       </ul>
       <a href="https://github.com/psubin05/f1tenth-collision-recovery"><strong>Repository →</strong></a>
       &nbsp;·&nbsp;
       <a href="https://github.com/psubin05/f1tenth-collision-recovery/blob/main/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov"><strong>Video →</strong></a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="52%" valign="middle">
+      <a href="https://github.com/graviny/capstone">
+        <img src="./warehouse.svg" alt="ARCo WES · Warehouse Multi-Robot Simulation" width="100%">
+      </a>
+    </td>
+    <td width="48%" valign="middle">
+      <code>MULTI-ROBOT · IN PROGRESS</code>
+      <h3>ARCo WES · Warehouse Multi-Robot Simulation</h3>
+      <ul>
+        <li>Simulates a 24 × 14 m warehouse in Webots with patrol and transport robots.</li>
+        <li>Uses real order data to model inventory and task-state mismatches for task verification and dynamic replanning.</li>
+      </ul>
+      <a href="https://github.com/graviny/capstone"><strong>Repository →</strong></a>
     </td>
   </tr>
 </table>
@@ -126,7 +128,7 @@ Profile design system
     </td>
     <td width="48%" valign="middle">
       <code>HUMANE LAB · UNDERGRADUATE RESEARCH</code>
-      <h3>Korean Hate Speech Detection</h3>
+      <h3>LLM-Based Korean Hate Speech Detection</h3>
       <ul>
         <li>Evaluates KOLD few-shot classification using ICCD/CD experiments.</li>
         <li>Improves macro-F1 from <strong>0.4039</strong> to <strong>0.4636</strong> through self-refinement.</li>

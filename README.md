@@ -19,25 +19,31 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top" bgcolor="#ffffff">
+    <td width="54%" valign="middle">
       <a href="https://github.com/graviny/capstone">
         <img src="./warehouse.svg" alt="Warehouse Multi-Robot Communication" width="100%">
       </a>
-      <br><hr>
+    </td>
+    <td width="46%" valign="middle">
       <h3>Warehouse Multi-Robot Communication</h3>
+      <code>In progress</code>
       <ul>
         <li>Simulates a 20 × 14 m Webots warehouse with patrol, recovery, and transport robots.</li>
         <li>Compares full, pull, cache, and adaptive communication policies under anomalies and channel load.</li>
       </ul>
-      <code>In progress</code>
-      &nbsp;·&nbsp;
       <a href="https://github.com/graviny/capstone"><strong>Repository →</strong></a>
     </td>
-    <td width="50%" valign="top" bgcolor="#ffffff">
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="54%" valign="middle">
       <a href="https://github.com/psubin05/hate_self_refine">
         <img src="./hate-speech-method.png" alt="Self-refined negative demonstrations for Korean hate speech classification" width="100%">
       </a>
-      <br><hr>
+    </td>
+    <td width="46%" valign="middle">
       <h3>Korean Hate Speech Detection</h3>
       <ul>
         <li>Evaluates KOLD few-shot classification using ICCD/CD experiments.</li>
@@ -46,15 +52,19 @@
       <a href="https://github.com/psubin05/hate_self_refine"><strong>Repository →</strong></a>
     </td>
   </tr>
+</table>
+
+<table>
   <tr>
-    <td width="50%" valign="top" bgcolor="#ffffff">
+    <td width="54%" valign="middle">
       <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control">
         <img src="./racing-pipeline.svg" alt="F1TENTH adaptive racing control pipeline" width="100%">
       </a>
-      <br><hr>
+    </td>
+    <td width="46%" valign="middle">
       <h3>F1TENTH Adaptive Racing Control</h3>
       <strong>🏅 8th Place · Encouragement Award</strong><br>
-      2025 The 4th F1TENTH Korea Championship · ICCAS 2025
+      <sub>2025 The 4th F1TENTH Korea Championship · ICCAS 2025</sub>
       <ul>
         <li>Runs TinyLidarNet inference in a ROS 2 racing stack on NVIDIA Jetson.</li>
         <li>Adds LiDAR-aware speed limits and speed-dependent steering constraints.</li>
@@ -63,11 +73,17 @@
       &nbsp;·&nbsp;
       <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control/blob/main/assets/competition-run.mp4"><strong>Video →</strong></a>
     </td>
-    <td width="50%" valign="top" bgcolor="#ffffff">
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="54%" valign="middle">
       <a href="https://github.com/psubin05/f1tenth-collision-recovery">
         <img src="./recovery-demo.gif" alt="F1TENTH collision detection and reverse recovery demo" width="100%">
       </a>
-      <br><hr>
+    </td>
+    <td width="46%" valign="middle">
       <h3>F1TENTH Collision Recovery</h3>
       <ul>
         <li>Detects collision states using LiDAR, IMU, and odometry.</li>

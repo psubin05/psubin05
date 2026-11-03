@@ -46,7 +46,7 @@
       <br><br>
       <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control"><strong>Repository →</strong></a>
       &nbsp;·&nbsp;
-      <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control/blob/main/assets/competition-run.mp4"><strong>Demo →</strong></a>
+      <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control/blob/main/assets/competition-run.mp4"><strong>Video →</strong></a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/psubin05/f1tenth-collision-recovery">
@@ -57,7 +57,7 @@
       <br><br>
       <a href="https://github.com/psubin05/f1tenth-collision-recovery"><strong>Repository →</strong></a>
       &nbsp;·&nbsp;
-      <a href="https://github.com/psubin05/f1tenth-collision-recovery/blob/main/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov"><strong>Demo →</strong></a>
+      <a href="https://github.com/psubin05/f1tenth-collision-recovery/blob/main/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov"><strong>Video →</strong></a>
     </td>
   </tr>
 </table>

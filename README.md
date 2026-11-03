@@ -41,7 +41,7 @@
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/psubin05/f1tenth-collision-recovery">
-        <img src="./recovery.svg" alt="F1TENTH Reverse Recovery" width="100%">
+        <img src="./recovery-demo.gif" alt="F1TENTH collision detection and reverse recovery demo" width="100%">
       </a>
       <br><br>
       Implemented collision detection and integrated the ROS 2 state transitions for the team's reverse recovery sequence.

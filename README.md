@@ -1,37 +1,31 @@
 <h1 align="center">Subin Park</h1>
 <p align="center"><strong>Korean NLP · Autonomous Driving · Multi-Robot Systems</strong></p>
-<p align="center">
-  <a href="#selected-work">Selected work</a> &nbsp;·&nbsp;
-  <a href="#research-spotlight">Research spotlight</a> &nbsp;·&nbsp;
-  <a href="mailto:psubin0512@gmail.com">Email</a>
-</p>
+<p align="center"><a href="https://velog.io/@psubin05/posts">Velog · Dev Blog</a> &nbsp;·&nbsp; <a href="mailto:psubin0512@gmail.com">Email</a></p>
 
-> **Currently building** — Adaptive communication for multi-robot coordination.
+### F1TENTH Reverse Recovery
 
-## Selected Work
+I implemented collision detection and integrated the ROS 2 transitions for the team's reverse recovery sequence.
 
-| Project | My contribution |
-| :--- | :--- |
-| [**Korean Hate Speech Detection**](https://github.com/psubin05/hate_self_refine)<br>Undergraduate research | Ran few-shot classification experiments on KOLD, including ICCD/CD experiments, and evaluated self-refined negative demonstrations. |
-| [**F1TENTH Adaptive Racing Control**](https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control)<br>Autonomous driving competition | Adapted TinyLidarNet in a ROS 2 racing stack on Jetson, using forward LiDAR clearance to bound speed and commanded speed to limit steering. |
-| [**F1TENTH Reverse Recovery**](https://github.com/psubin05/f1tenth-collision-recovery)<br>Team project | Implemented collision detection using LiDAR, IMU, and odometry. Integrated the ROS 2 state transitions and controller switching for the team's reverse recovery sequence. |
+```mermaid
+flowchart LR
+    A[Collision detected] --> B[Reverse recovery]
+    B --> C[Localization stabilizes]
+    C --> D[Resume driving]
+```
 
-## Research Spotlight
+[Watch the demo](https://github.com/psubin05/f1tenth-collision-recovery/blob/main/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov) · [View code](https://github.com/psubin05/f1tenth-collision-recovery)
 
-**Self-refined negative demonstrations for Korean hate speech classification**
+### Korean Hate Speech Detection
 
-The reported KOLD ablation reached **0.4636 macro-F1** with self-refinement, compared with **0.4039** for regular in-context learning.
+Undergraduate research on KOLD, including ICCD/CD experiments. The reported self-refinement ablation reached **0.4636 macro-F1** vs. **0.4039** for regular in-context learning.
 
 <p align="center">
-  <a href="https://github.com/psubin05/hate_self_refine">
-    <img src="https://raw.githubusercontent.com/psubin05/hate_self_refine/main/assets/method_overview.png" alt="Method overview for self-refined negative demonstrations" width="680">
-  </a>
+  <a href="https://github.com/psubin05/hate_self_refine"><img src="https://raw.githubusercontent.com/psubin05/hate_self_refine/main/assets/method_overview.png" width="640" alt="Research method overview for self-refined negative demonstrations"></a>
 </p>
 
-[Explore the experiment scripts and results →](https://github.com/psubin05/hate_self_refine)
+[View experiments and results](https://github.com/psubin05/hate_self_refine)
 
 ---
 
-**Research** · Python, vLLM, few-shot evaluation  
-**Robotics** · ROS 2, C++, LiDAR, Ackermann control, NVIDIA Jetson
-
+**Competition** · [F1TENTH Adaptive Racing Control](https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control) — LiDAR-based speed and steering control  
+**In progress** · Adaptive communication for multi-robot coordination

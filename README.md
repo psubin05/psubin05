@@ -1,15 +1,14 @@
 <div align="center">
   <img src="./banner.svg" alt="Subin Park — AI Developer and Robotics Engineer" width="100%">
   <br>
-  <a href="https://velog.io/@psubin05/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="Velog"></a>
-  &nbsp;
-  <a href="mailto:psubin0512@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-  <br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/ROS_2-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA Jetson">
+  <a href="https://velog.io/@psubin05/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=flat-square&amp;logo=velog&amp;logoColor=white" alt="Velog" height="24"></a>
+  <a href="mailto:psubin0512@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email" height="24"></a>
+  &nbsp;&nbsp;│&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" height="24">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++" height="24">
+  <img src="https://img.shields.io/badge/ROS_2-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2" height="24">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="24">
+  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA Jetson" height="24">
 </div>
 
 ## Selected Projects

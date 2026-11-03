@@ -2,26 +2,26 @@
   <img src="./banner.svg" alt="Subin Park — Robotics Engineer and AI Developer" width="100%">
 </div>
 
-### Hi, I'm Subin Park 👋
-
 I build autonomous robot systems and apply AI to perception, control, and multi-robot coordination.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong>ABOUT ME</strong>
+      <h3>🔬 Research Experience</h3>
+      <a href="https://ssu-humane.github.io/"><strong>HUMANE Lab</strong></a><br>
+      <code>Undergraduate Researcher · 8 months</code>
       <ul>
-        <li>Developing robotics systems with ROS 2, LiDAR, and NVIDIA Jetson.</li>
-        <li>Experienced in autonomous racing, collision recovery, and multi-robot coordination.</li>
-        <li>Also conducting Korean NLP model-evaluation research.</li>
+        <li>Conducted Korean hate-speech detection research using KOLD.</li>
+        <li>Ran ICCD/CD and self-refinement experiments for few-shot classification.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <strong>CURRENTLY</strong>
+      <h3>🤖 Current Focus</h3>
+      <strong>Warehouse Multi-Robot Communication</strong><br>
+      <code>In progress</code>
       <ul>
         <li>Building adaptive communication policies for warehouse robots.</li>
-        <li>Evaluating communication efficiency and task performance in Webots.</li>
-        <li>Documenting experiments and implementations on Velog.</li>
+        <li>Evaluating communication cost and task performance in Webots.</li>
       </ul>
     </td>
   </tr>
@@ -114,6 +114,7 @@ I build autonomous robot systems and apply AI to perception, control, and multi-
     </td>
     <td width="46%" valign="middle">
       <h3>Korean Hate Speech Detection</h3>
+      <code>HUMANE Lab · Undergraduate Research</code>
       <ul>
         <li>Evaluates KOLD few-shot classification using ICCD/CD experiments.</li>
         <li>Improves macro-F1 from <strong>0.4039</strong> to <strong>0.4636</strong> through self-refinement.</li>

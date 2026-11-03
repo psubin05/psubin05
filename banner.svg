@@ -1,21 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
   <title id="title">Subin Park — Robotics Engineer and AI Developer</title>
-  <desc id="desc">Portfolio header for robotics, autonomous driving, multi-robot systems, and Korean NLP.</desc>
+  <desc id="desc">Animated robotics portfolio header showing current focus on warehouse robot communication.</desc>
   <defs>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#06b6d4"/>
-      <stop offset="0.5" stop-color="#3b82f6"/>
-      <stop offset="1" stop-color="#06b6d4"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#262626"/>
     </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
   </defs>
 
-  <rect x="1" y="1" width="1198" height="228" rx="22" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
-  <rect x="0" y="226" width="1200" height="4" rx="2" fill="url(#line)" opacity="0.75"/>
+  <rect width="1200" height="270" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="270" rx="22" fill="url(#grid)"/>
+  <line x1="735" y1="36" x2="735" y2="234" stroke="#525252"/>
 
-  <g text-anchor="middle" font-family="Arial, sans-serif">
-    <text x="600" y="42" font-size="14" font-weight="700" letter-spacing="2.4" fill="#0891b2">ROBOTICS · AI · RESEARCH</text>
-    <text x="600" y="112" font-size="62" font-weight="700" fill="#0f172a">Subin Park</text>
-    <text x="600" y="158" font-size="28" font-weight="600" fill="#334155">Robotics Engineer <tspan fill="#0891b2">&amp;</tspan> AI Developer</text>
-    <text x="600" y="196" font-size="18" fill="#64748b">Autonomous Driving · Multi-Robot Systems · Korean NLP</text>
+  <g font-family="Arial, sans-serif">
+    <circle cx="62" cy="47" r="5" fill="#2dd4bf">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="78" y="53" font-size="14" font-weight="700" letter-spacing="2.2" fill="#99f6e4">HELLO, I'M</text>
+
+    <text x="55" y="130" font-size="66" font-weight="700" letter-spacing="0.5" fill="#fafafa">Subin Park</text>
+    <text x="58" y="177" font-size="27" font-weight="600" fill="#e5e5e5">Robotics Engineer <tspan fill="#2dd4bf">&amp;</tspan> AI Developer</text>
+    <rect x="534" y="153" width="3" height="30" fill="#a3e635">
+      <animate attributeName="opacity" values="1;0;1" dur="1.05s" repeatCount="indefinite"/>
+    </rect>
+    <text x="58" y="218" font-size="17" fill="#a3a3a3">ROS 2 · Autonomous Driving · Multi-Robot Systems · Korean NLP</text>
+
+    <text x="785" y="55" font-size="13" font-weight="700" letter-spacing="2" fill="#a3a3a3">CURRENT FOCUS</text>
+    <circle cx="793" cy="97" r="5" fill="#a3e635">
+      <animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="812" y="104" font-size="19" font-weight="700" fill="#fafafa">Warehouse Multi-Robot Systems</text>
+    <text x="812" y="130" font-size="14" fill="#a3a3a3">adaptive communication · task coordination</text>
+
+    <circle cx="793" cy="168" r="5" fill="#2dd4bf">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="812" y="175" font-size="19" font-weight="700" fill="#fafafa">Autonomous Robot Control</text>
+    <text x="812" y="201" font-size="14" fill="#a3a3a3">ROS 2 · LiDAR · NVIDIA Jetson</text>
   </g>
+
+  <rect x="0" y="264" width="1200" height="6" fill="#404040"/>
+  <rect x="-260" y="264" width="260" height="6" rx="3" fill="url(#accent)">
+    <animate attributeName="x" from="-260" to="1200" dur="4.8s" repeatCount="indefinite"/>
+  </rect>
 </svg>

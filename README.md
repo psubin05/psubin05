@@ -1,6 +1,33 @@
 <div align="center">
-  <img src="./banner.svg" alt="Subin Park — AI Developer and Robotics Engineer" width="100%">
-  <br><br>
+  <img src="./banner.svg" alt="Subin Park — Robotics Engineer and AI Developer" width="100%">
+</div>
+
+### Hi, I'm Subin Park 👋
+
+I build autonomous robot systems and apply AI to perception, control, and multi-robot coordination.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>ABOUT ME</strong>
+      <ul>
+        <li>Developing robotics systems with ROS 2, LiDAR, and NVIDIA Jetson.</li>
+        <li>Experienced in autonomous racing, collision recovery, and multi-robot coordination.</li>
+        <li>Also conducting Korean NLP model-evaluation research.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <strong>CURRENTLY</strong>
+      <ul>
+        <li>Building adaptive communication policies for warehouse robots.</li>
+        <li>Evaluating communication efficiency and task performance in Webots.</li>
+        <li>Documenting experiments and implementations on Velog.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<div align="center">
   <sub><strong>CONNECT</strong></sub>
   <br>
   <a href="https://velog.io/@psubin05/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="Velog"></a>
@@ -8,11 +35,11 @@
   <br><br>
   <sub><strong>TECH STACK</strong></sub>
   <br>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++">
   <img src="https://img.shields.io/badge/ROS_2-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA Jetson">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
 </div>
 
 ## Selected Projects
@@ -32,24 +59,6 @@
         <li>Compares full, pull, cache, and adaptive communication policies under anomalies and channel load.</li>
       </ul>
       <a href="https://github.com/graviny/capstone"><strong>Repository →</strong></a>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="54%" valign="middle">
-      <a href="https://github.com/psubin05/hate_self_refine">
-        <img src="./hate-speech-method.png" alt="Self-refined negative demonstrations for Korean hate speech classification" width="100%">
-      </a>
-    </td>
-    <td width="46%" valign="middle">
-      <h3>Korean Hate Speech Detection</h3>
-      <ul>
-        <li>Evaluates KOLD few-shot classification using ICCD/CD experiments.</li>
-        <li>Improves macro-F1 from <strong>0.4039</strong> to <strong>0.4636</strong> through self-refinement.</li>
-      </ul>
-      <a href="https://github.com/psubin05/hate_self_refine"><strong>Repository →</strong></a>
     </td>
   </tr>
 </table>
@@ -92,6 +101,24 @@
       <a href="https://github.com/psubin05/f1tenth-collision-recovery"><strong>Repository →</strong></a>
       &nbsp;·&nbsp;
       <a href="https://github.com/psubin05/f1tenth-collision-recovery/blob/main/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov"><strong>Video →</strong></a>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="54%" valign="middle">
+      <a href="https://github.com/psubin05/hate_self_refine">
+        <img src="./hate-speech-method.png" alt="Self-refined negative demonstrations for Korean hate speech classification" width="100%">
+      </a>
+    </td>
+    <td width="46%" valign="middle">
+      <h3>Korean Hate Speech Detection</h3>
+      <ul>
+        <li>Evaluates KOLD few-shot classification using ICCD/CD experiments.</li>
+        <li>Improves macro-F1 from <strong>0.4039</strong> to <strong>0.4636</strong> through self-refinement.</li>
+      </ul>
+      <a href="https://github.com/psubin05/hate_self_refine"><strong>Repository →</strong></a>
     </td>
   </tr>
 </table>

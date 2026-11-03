@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/hee4040/KARCo">
+      <a href="https://github.com/graviny/capstone">
         <img src="./warehouse.svg" alt="Warehouse Multi-Robot Communication" width="100%">
       </a>
       <br><br>
@@ -21,7 +21,7 @@
       <br><br>
       <code>In progress</code>
       &nbsp;·&nbsp;
-      <a href="https://github.com/hee4040/KARCo"><strong>Repository →</strong></a>
+      <a href="https://github.com/graviny/capstone"><strong>Repository →</strong></a>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/psubin05/hate_self_refine">

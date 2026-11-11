@@ -51,7 +51,7 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
   <tr>
     <td width="52%" valign="middle">
       <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control">
-        <img src="./racing-pipeline.svg" alt="F1TENTH adaptive racing control pipeline" width="100%">
+        <img src="./racing-highlight.gif" alt="F1TENTH race car on the ICCAS 2025 competition track" width="100%">
       </a>
     </td>
     <td width="48%" valign="middle">

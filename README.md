@@ -95,7 +95,7 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
   <tr>
     <td width="52%" valign="middle">
       <a href="https://github.com/graviny/capstone">
-        <img src="./warehouse.svg" alt="KARCO WES · Warehouse Multi-Robot Simulation" width="100%">
+        <img src="./karco-wes-simulation.gif" alt="Robots moving through the KARCO WES warehouse simulation in Webots" width="100%">
       </a>
     </td>
     <td width="48%" valign="middle">

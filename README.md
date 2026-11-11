@@ -2,7 +2,8 @@
 
 **Robotics software and AI · Soongsil University**
 
-I’m an AI Software undergraduate working on autonomous race cars and multi-robot warehouse simulation. At HUMANE Lab, I studied how the examples a language model sees affect its ability to classify Korean comments.
+Hi, I’m an AI Software undergraduate working on autonomous race cars and multi-robot warehouse simulation. 
+At HUMANE Lab, I studied how the examples a language model sees affect its ability to classify Korean comments.
 
 [Robotics projects](#robotics-projects) · [Research](#research) · [Contact](#contact)
 

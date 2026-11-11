@@ -1,51 +1,12 @@
-<!--
-Profile design system
-- Section hierarchy: H2 section > code tag > H3 title > status/achievement > two bullets > links
-- Project cards: 52% visual / 48% description, vertically centered
-- Link order: Repository first, Video second
-- Preserve source-image aspect ratios; do not stretch research figures or demos
--->
+# Subin Park
 
-<div align="center">
-  <img src="./banner.svg" alt="Subin Park — Robotics Engineer and AI Developer" width="100%">
-</div>
+**Robotics software and AI · Soongsil University**
 
-I work on ROS 2 autonomous driving and warehouse multi-robot systems, with research experience in LLM-based Korean hate speech detection.
+I’m an AI Software undergraduate working on autonomous race cars and multi-robot warehouse simulation. At HUMANE Lab, I studied how the examples a language model sees affect its ability to classify Korean comments.
 
-## Experience & Focus
+[Robotics projects](#robotics-projects) · [Research](#research) · [Contact](#contact)
 
-### [HUMANE Lab](https://ssu-humane.github.io/)
-
-**Undergraduate Researcher · 8 months**
-
-- Studied Korean hate speech detection using the KOLD dataset.
-- Tested ICCD/CD and self-refinement for few-shot classification.
-
-### [KARCO WES](https://github.com/graviny/capstone)
-
-**Warehouse multi-robot simulation · In progress**
-
-- Developing a Webots simulator for warehouse robot operations.
-- Studying how robots verify tasks and replan when inventory or task records differ from the physical state.
-
-## Connect & Core Stack
-
-<div align="center">
-  <sub><strong>CONNECT</strong></sub>
-  <br>
-  <a href="https://velog.io/@psubin05/posts"><img src="https://img.shields.io/badge/Velog-20C997?style=for-the-badge&amp;logo=velog&amp;logoColor=white" alt="Velog"></a>
-  <a href="mailto:psubin0512@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-  <br><br>
-  <sub><strong>CORE STACK</strong></sub>
-  <br>
-  <img src="https://img.shields.io/badge/ROS_2-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA Jetson">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
-</div>
-
-## Selected Projects
+## Robotics projects
 
 <table>
   <tr>
@@ -55,17 +16,13 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
       </a>
     </td>
     <td width="48%" valign="middle">
-      <code>AUTONOMOUS DRIVING · COMPETITION</code>
       <h3>F1TENTH Adaptive Racing Control</h3>
-      <strong>🏅 8th Place · Encouragement Award</strong><br>
-      <sub>2025 The 4th F1TENTH Korea Championship · ICCAS 2025</sub>
-      <ul>
-        <li>Runs TinyLidarNet inference in a ROS 2 racing stack on NVIDIA Jetson.</li>
-        <li>Adds LiDAR-aware speed limits and speed-dependent steering constraints.</li>
-      </ul>
-      <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control"><strong>Repository →</strong></a>
+      <p><sub>Competition · ROS 2, TinyLidarNet, NVIDIA Jetson</sub></p>
+      <p>I added LiDAR-based speed limits and speed-dependent steering constraints to the race car’s control software.</p>
+      <p><strong>8th place · Encouragement Award at ICCAS 2025</strong></p>
+      <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control"><strong>Repository</strong></a>
       &nbsp;·&nbsp;
-      <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control/blob/main/assets/competition-run.mp4"><strong>Video →</strong></a>
+      <a href="https://github.com/psubin05/F1TENTH-Adaptive-Racing-Control/blob/main/assets/competition-run.mp4"><strong>Full video</strong></a>
     </td>
   </tr>
 </table>
@@ -78,15 +35,13 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
       </a>
     </td>
     <td width="48%" valign="middle">
-      <code>ROBOT CONTROL · TEAM PROJECT</code>
       <h3>F1TENTH Collision Detection &amp; Reverse Recovery</h3>
-      <ul>
-        <li>Detects collision states using LiDAR, IMU, and odometry.</li>
-        <li>Integrates ROS 2 state transitions for reverse recovery and return to autonomous driving after localization stabilizes.</li>
-      </ul>
-      <a href="https://github.com/psubin05/f1tenth-collision-recovery"><strong>Repository →</strong></a>
+      <p><sub>Course project · Team lead (3 members) · ROS 2</sub></p>
+      <p>I combined distance, impact, and speed signals to detect collisions, then designed when the car should reverse and resume autonomous driving.</p>
+      <p><strong>Demo shows the car reversing and returning to its route.</strong></p>
+      <a href="https://github.com/psubin05/f1tenth-collision-recovery"><strong>Repository</strong></a>
       &nbsp;·&nbsp;
-      <a href="https://github.com/psubin05/f1tenth-collision-recovery/blob/main/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov"><strong>Video →</strong></a>
+      <a href="https://github.com/psubin05/f1tenth-collision-recovery/blob/main/%EC%8B%9C%EC%97%B0%20%EC%98%81%EC%83%81.mov"><strong>Full video</strong></a>
     </td>
   </tr>
 </table>
@@ -99,16 +54,15 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
       </a>
     </td>
     <td width="48%" valign="middle">
-      <code>MULTI-ROBOT · IN PROGRESS</code>
       <h3>KARCO WES · Warehouse Multi-Robot Simulation</h3>
-      <ul>
-        <li>Simulates a 24 × 14 m warehouse in Webots with patrol and transport robots.</li>
-        <li>Uses real order data to model inventory and task-state mismatches for task verification and dynamic replanning.</li>
-      </ul>
-      <a href="https://github.com/graviny/capstone"><strong>Repository →</strong></a>
+      <p><sub>Capstone · In progress · Webots</sub></p>
+      <p>I’m developing a warehouse simulator where transport and patrol robots work from real order data. We use it to study how robots verify and replan tasks when records and shelf contents disagree.</p>
+      <a href="https://github.com/graviny/capstone"><strong>Repository</strong></a>
     </td>
   </tr>
 </table>
+
+## Research
 
 <table>
   <tr>
@@ -118,22 +72,25 @@ I work on ROS 2 autonomous driving and warehouse multi-robot systems, with resea
       </a>
     </td>
     <td width="48%" valign="middle">
-      <code>HUMANE LAB · UNDERGRADUATE RESEARCH</code>
       <h3>LLM-Based Korean Hate Speech Detection</h3>
-      <ul>
-        <li>Evaluates KOLD few-shot classification using ICCD/CD experiments.</li>
-        <li>Improves macro-F1 from <strong>0.4039</strong> to <strong>0.4636</strong> through self-refinement.</li>
-      </ul>
-      <a href="https://github.com/psubin05/hate_self_refine"><strong>Repository →</strong></a>
+      <p><sub>HUMANE Lab · Undergraduate research (8 months)</sub></p>
+      <p>I compared three language models on Korean comments, varying the examples they saw to measure how those examples affected classification.</p>
+      <p><strong>First-author paper submitted to KSC 2026.</strong></p>
+      <a href="https://github.com/psubin05/hate_self_refine"><strong>Repository</strong></a>
     </td>
   </tr>
 </table>
 
-## Additional Project
+## Additional work
 
 ### [Smart Bug Trap](https://github.com/psubin05/Smart-Bug-Trap)
 
-**Indoor pest monitoring and automated trapping**
+Built a Raspberry Pi prototype that uses YOLOv5 to identify pests from camera footage and an ultrasonic sensor to trigger the trap as they approach.
 
-- Uses YOLOv5 and a Raspberry Pi camera to detect fruit flies, mosquitoes, and cockroaches.
-- Uses ultrasonic distance sensing to trigger the trap when a pest approaches.
+## Tools
+
+ROS 2 · C++ · Python · NVIDIA Jetson · Webots · PyTorch
+
+## Contact
+
+[Email](mailto:psubin0512@gmail.com) · [Velog](https://velog.io/@psubin05/posts)

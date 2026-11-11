@@ -2,7 +2,7 @@
 
 **Robotics software and AI · Soongsil University**
 
-Hi, I’m an AI Software undergraduate interested in robot perception and autonomous control, especially how robots use sensor data to decide what to do next. I spent eight months as an undergraduate researcher at HUMANE Lab, studying Korean hate speech detection with language models.
+Hi, I’m an undergraduate in the School of AI Software at Soongsil University. I’m interested in robot perception and autonomous control, especially how robots use sensor data to decide what to do next. I spent eight months as an undergraduate researcher at HUMANE Lab, studying Korean hate speech detection with language models.
 
 [Robotics projects](#robotics-projects) · [Research](#research) · [Contact](#contact)
 
@@ -89,14 +89,13 @@ Built a Raspberry Pi prototype that uses YOLOv5 to identify pests from camera fo
 
 ## Tools
 
-<p>
-  <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/NVIDIA%20Jetson-477900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA Jetson">
-  <img src="https://img.shields.io/badge/Webots-45556C?style=flat-square&amp;logo=webots&amp;logoColor=white" alt="Webots">
-  <img src="https://img.shields.io/badge/PyTorch-A8341D?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
-</p>
+Self-assessed proficiency (out of 5)
+
+<table>
+  <tr><td><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python"></td><td>●●●●○ <sub>4/5</sub></td><td><img src="https://img.shields.io/badge/OpenCV-4355B9?style=flat-square&amp;logo=opencv&amp;logoColor=white" alt="OpenCV"></td><td>●●●○○ <sub>3/5</sub></td></tr>
+  <tr><td><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++"></td><td>●●●●○ <sub>4/5</sub></td><td><img src="https://img.shields.io/badge/YOLOv5-5145A5?style=flat-square&amp;logo=ultralytics&amp;logoColor=white" alt="YOLOv5"></td><td>●●●○○ <sub>3/5</sub></td></tr>
+  <tr><td><img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2"></td><td>●●●○○ <sub>3/5</sub></td><td><img src="https://img.shields.io/badge/GitHub-333333?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub"></td><td>●●●○○ <sub>3/5</sub></td></tr>
+</table>
 
 ## Contact
 

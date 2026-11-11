@@ -2,8 +2,7 @@
 
 **Robotics software and AI · Soongsil University**
 
-Hi, I’m an AI Software undergraduate working on autonomous race cars and multi-robot warehouse simulation. 
-At HUMANE Lab, I studied how the examples a language model sees affect its ability to classify Korean comments.
+Hi, I’m an AI Software undergraduate interested in robot perception and autonomous control, especially how robots use sensor data to decide what to do next. I spent eight months as an undergraduate researcher at HUMANE Lab, studying Korean hate speech detection with language models.
 
 [Robotics projects](#robotics-projects) · [Research](#research) · [Contact](#contact)
 
@@ -90,8 +89,18 @@ Built a Raspberry Pi prototype that uses YOLOv5 to identify pests from camera fo
 
 ## Tools
 
-ROS 2 · C++ · Python · NVIDIA Jetson · Webots · PyTorch
+<p>
+  <img src="https://img.shields.io/badge/ROS%202-22314E?style=flat-square&amp;logo=ros&amp;logoColor=white" alt="ROS 2">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/NVIDIA%20Jetson-477900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA Jetson">
+  <img src="https://img.shields.io/badge/Webots-45556C?style=flat-square&amp;logo=webots&amp;logoColor=white" alt="Webots">
+  <img src="https://img.shields.io/badge/PyTorch-A8341D?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch">
+</p>
 
 ## Contact
 
-[Email](mailto:psubin0512@gmail.com) · [Velog](https://velog.io/@psubin05/posts)
+<p>
+  <a href="mailto:psubin0512@gmail.com"><img src="https://img.shields.io/badge/Email-B43227?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+  <a href="https://velog.io/@psubin05/posts"><img src="https://img.shields.io/badge/Velog-087C64?style=flat-square&amp;logo=velog&amp;logoColor=white" alt="Velog"></a>
+</p>
